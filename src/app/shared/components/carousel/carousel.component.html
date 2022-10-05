@@ -1,0 +1,10 @@
+<swiper
+  [pagination]="{
+    clickable: true
+  }"
+  class="mySwiper"
+>
+  <ng-template swiperSlide *ngFor="let item of items; index as i">
+    <app-card [item]="item"> </app-card>
+  </ng-template>
+</swiper>

@@ -1,0 +1,23 @@
+.card {
+  height: 100%;
+  width: calc(100vw - 4rem);
+  padding: 1rem;
+  border: #3f3f3f solid 1px;
+  border-radius: 0.25rem;
+  color: #3f3f3f;
+
+  &__title {
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    text-align: justify;
+  }
+
+  &__button {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+}
